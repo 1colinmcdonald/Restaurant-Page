@@ -1,0 +1,25 @@
+#charcoal {
+    font-size: 20px;
+    border: none;
+    background-color: rgba(0,0,0,0);
+    font-family: serif;
+}
+
+button {
+    cursor: pointer;
+    color: rgb(56, 57, 61);
+}
+
+h1 {
+    color: rgb(56, 57, 61);
+}
+
+iframe {
+    border: none;
+}
+
+body {
+    background-color: rgb(252, 252, 249);
+    margin: 0;
+    padding: 0;
+}
