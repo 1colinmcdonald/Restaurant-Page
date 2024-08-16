@@ -1,0 +1,23 @@
+.menu-item {
+    text-align: center;
+}
+
+#menu {
+    line-height: 1.8rem;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    color: rgb(56, 57, 61);
+}
+
+.menu-item-prices {
+    margin-top: 10px;
+}
+
+.menu-item-name {
+    font-size: 1.5rem;
+}
+
+h1 {
+    color: rgb(91, 92, 97);
+}
