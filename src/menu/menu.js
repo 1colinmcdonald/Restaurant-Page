@@ -3,6 +3,7 @@ export default function createMenu() {
     const menu = document.createElement("div");
     const title = document.createElement("h1");
     title.textContent = "Our Menu";
+    title.classList.add("menu-title");
     menu.appendChild(title);
     const pageContent = document.querySelector("#content");
     menu.appendChild(generateMenuItem("charcoal grilled steak", "duck fat potato pave, green beans, horseradish puree, charred leek & marrow butter", "| 8 oz prime picanha $47 | 12 oz prime NY Strip $66 | 16 oz prime ribeye $76"));

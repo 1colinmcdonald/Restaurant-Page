@@ -1,0 +1,43 @@
+.about-title {
+    text-align: center;
+    color: rgb(91, 92, 97);
+    font-size: 3rem;
+    font-weight: 100;
+    margin-top: 32px;
+    height: fit-content;
+}
+
+img.team {
+    position: relative;
+    width: 100%;
+}
+
+.card>img {
+
+    width: 400px;
+    height: 450px;
+}
+
+.people {
+    display: flex;
+    margin: 30px 300px;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.card {
+    display: flex;
+    gap: 50px;
+    color: rgb(91, 92, 97);
+}
+
+.employee-title, .employee-name {
+    font-size: 3rem;
+    font-weight: 100;
+}
+
+.employee-description {
+    line-height: 1.5rem;
+    font-size: 1.1rem;
+    min-width: 400px;
+}
